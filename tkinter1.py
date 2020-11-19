@@ -10,7 +10,7 @@ title = tk.Label(text="hello world, welcome to tkinter",
 title.grid(column=0, row=0)
 
 # button
-button1 = tk.Button(text="exit", bg=red)
+button1 = tk.Button(text="exit", bg="red")
 button1.grid(column=0, row=1)
 
 # entry field
