@@ -5,7 +5,8 @@ window.title("hello")
 window.geometry("400x400")
 
 # label
-title = tk.Label(text="hello world, welcome to tkinter")
+title = tk.Label(text="hello world, welcome to tkinter",
+                 font=("tahoma-bold, 20"))
 title.grid(column=0, row=0)
 
 # button
